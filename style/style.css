@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/SunsetBackground.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color:rgba(20,20,20,1)
+}
+
+#fullPage{
+    width: 95%;
+    background-color: rgb(247, 247, 240);
+    background-color: rgba(247, 247, 240, .75);
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+#upperflex{
+    display: flex;
+    flex-flow: row-reverse;
+    min-width: 800px;
+}
+
+#titleContent{
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+    max-height: 500px;
+
+}
+
+#myPicture{
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    left: -25px;
+    z-index: 1;
+    border:5px solid grey;
+
+}
+
+h1{
+    /*Figure out good font for name*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    position: relative;
+    top: 250px;
+    left: 25px;
+    z-index: 2;
+    text-shadow: 2px 2px rgba(247, 247, 240, .75);
+
+}
+
+#bulletList{
+    flex-basis: auto;
+
+}
+
+table, th, tr,td{
+     border: 1px solid black;
+     border-spacing: 3px;
+     padding: 3px;
+}
+
+th{
+    background-color:rgb(146, 194, 214);
+    background-color:rgba(146, 194, 214, .5);
+}
+
+table{
+    width: 95%;
+    margin:auto;
+    background-color: rgb(240, 240, 240);
+    background-color: rgba(240, 240, 240, .5);
+    max-width: 750px;
+}
+
+th:first-child, td:first-child{
+    width: 5%;
+}
+
+th, td{
+    width: 19%;
+    vertical-align: top;
+    text-align: left;
+}
+
+
+col:nth-child(even){
+    background-color: rgb(211, 228, 235);
+    background-color: rgba(211, 228, 235, .5);
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+#modal-image{
+    margin: auto;
+    display: block;
+    height: 80%;
+
+}
+
+#close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#close:hover {
+    color: #bbb;
+    cursor: pointer;
+}
+
+#poem{
+    text-align: center;
+    position: relative;
+    left: -20%;
+}
+#stickyFooter{
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+    color:rgb(211, 228, 235);
+    background-color: rgba(0, 0, 0, .25);
+}

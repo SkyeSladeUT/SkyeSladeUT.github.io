@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Windows
+Thumbs.db
+Desktop.ini
 
-# Other files and folders
-.settings/
+# Mac
+.DS_Store
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# VS Code
+.vs
+.vscode
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Webstorm
+.idea
